@@ -1,0 +1,328 @@
+html {
+    font-size: 62.5%;
+}
+
+
+
+#bodylogin {
+    background-image: url(imagens/fundo_login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+figcaption {
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    border: 1px solid rgb(56, 56, 56);
+
+}
+
+header img {
+    width: 14vw;
+    height: 6vh;
+    padding: 5px;
+}
+
+figure {
+    display: inline;
+    margin: 0;
+}
+
+#calender {
+    width: 3vw;
+    height: 3vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.objectfit {
+    object-fit: contain;
+
+}
+
+#btnroxo {
+    background: #8162ff;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+
+#login {
+    font-size: 4rem;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+
+#mainindex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainreservas {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.btnsection {
+    width: 20vw;
+    height: 12vh;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background: #8162ff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: white;
+
+}
+
+h2 {
+    font-size: 2rem;
+
+    color: white;
+
+}
+
+#subtitulo {
+    font-size: 1.4rem;
+    font-weight: 400;
+
+}
+
+input {
+    background-color: rgb(29, 29, 29);
+    border: none;
+    height: 4vh;
+    border-radius: 7px;
+    width: 33vw;
+}
+
+#lupa {
+    background: #8162ff;
+    width: 2vw;
+    height: 2.5vh;
+    border-radius: 10px;
+    padding: 0.5vw;
+
+}
+
+
+
+header div figure img {
+    border-radius: 100%;
+    width: 3.5vw;
+    height: 6vh;
+}
+
+#agendamentos {
+    color: rgb(100, 100, 100);
+    font-weight: 600;
+}
+
+#bodyreservas {
+    background-color: rgb(34, 34, 34);
+    background-image: url(imagens/fundo.jpg);
+    width: 100%;
+    height: 74vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: 'Nunito';
+}
+
+#roxo {
+    color: #8162ff;
+    background-color: #7958fd80;
+    width: 7vw;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#fundocinza {
+    width: 35.5vw;
+    height: auto;
+    background-color: rgb(34, 34, 34);
+    padding: 1vw;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+}
+
+
+article {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+
+article img {
+    border-radius: 100%;
+    width: 4vw;
+    height: 7vh;
+}
+
+#corteagendadovintage {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+    flex-direction: row;
+    color: white;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+
+
+.agendamento-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#datahora {
+    text-align: center;
+}
+
+#dia6 {
+    font-size: 4rem;
+    padding: 0;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#atcsec {
+    position: relative;
+    width: 100%;
+    height: 38vh;
+    border-radius: 10px;
+    border: 1px solid rgb(56, 56, 56);
+    overflow: hidden;
+    background: url(imagens/img1.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+#atcsec p {
+    font-size: 1rem;
+}
+
+
+
+#atcsec button {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 15px;
+}
+
+.estrela {
+    width: 2.2vw;
+    height: auto;
+}
+
+#atcsec .rowestrela {
+    position: absolute;
+    top: 1vh;
+    left: 1vh;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 0.5vw 1vw;
+    background-color: #7958fd80;
+    border-radius: 8px;
+    height: 4vh;
+}
+
+
+
+.h1ep {
+    margin-top: 20vh;
+}
+
+
+#backcinza {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    margin-top: 0; /* remove espaço branco de cima */
+    margin-bottom: 40px; /* adiciona espaço antes do footer */
+}
+
+
+footer{
+    background-color: rgb(56, 56, 56);
+    padding: 2vh;
+}
