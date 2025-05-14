@@ -113,7 +113,7 @@ header button {
     align-items: start;
     flex-direction: column;
     padding: 1vw;
-    gap:20px;
+    gap: 20px;
 
 }
 
@@ -297,7 +297,7 @@ article img {
 }
 
 #dia6 {
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 0;
     color: white;
     margin-bottom: 30px;
@@ -464,7 +464,7 @@ article img {
     border: none;
 }
 
- #bodyreservas section {
+#bodyreservas section {
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -511,13 +511,14 @@ footer {
     margin-top: 40px;
 }
 
-#sobrenos{
+#sobrenos {
+    margin-top: 160px;
     width: 40vw;
-    height: 108vh;
+    height: 128vh;
     border-radius: 10px;
     background: url(imagens/mapa.png);
-    border: 20px solid #1f2125 ;
-    background-size: 100% 40%;
+    border: 10px solid #1f2125;
+    background-size: 100% 30vh;
     background-repeat: no-repeat;
     background-position: top;
     background-color: #1f2125;
@@ -526,55 +527,173 @@ footer {
     align-items: center;
 }
 
-#sobrenos div figure img {
+#sobrenos #vintagebarbermapa figure img {
     width: 4.5vw;
     height: 8vh;
     border-radius: 100%;
-   
+
+}
+
+.iconcelular {
+    width: 3vw;
+    height: 4vh;
+}
+
+#loc {
+    width: 3vw;
+    height: 4vh;
 }
 
 
 
-
-#vintagebarbermapa{
+#vintagebarbermapa {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10px;
     background-color: #1f2125;
-    margin-top: 45%;
+    margin-top: 20vh;
     width: 80%;
     height: auto;
-border-radius: 8px ;
+    border-radius: 8px;
 
 }
 
 .coluna {
     display: flex;
     flex-direction: column;
-    gap: 1.5vh; 
+    width: 100%;
     border-top: 1px solid #26272B;
     border-bottom: 1px solid #26272B;
+
+}
+
+.colunamontagem {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+
+
+}
+
+
+
+
+.colunabordacinza {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #26272B;
+    border-radius: 10px;
 }
 
 .linha {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 1vw; 
+    gap: 1vw;
     padding: 1vh;
     border-radius: 10px;
 }
 
+.linhamonatgem {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 1vw;
+    padding: 1vh;
+}
 
+.linhasobrenos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    padding: 1vh;
+    border-radius: 10px;
+}
 
+.linha button {
+    color: white;
+    background-color: #5c5c5f;
+    border: none;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 10px;
+}
 
-
-
+.linhasobrenos button{
+color: white;
+    background-color: #5c5c5f;
+    border: none;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 6px;
+}
 
 #coluna h2,
 #coluna p {
     margin: 0;
     padding: 0;
+}
+
+#btncancelar {
+    margin-top: 10px;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(255, 64, 64);
+    width: 100%;
+    height: 10vh;
+    border-radius: 25px;
+}
+
+
+.montagem {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+#imggrande {
+    width: 50vw;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ppreco{
+    color: #8162ff;
+    font-size: 1.7rem;
+}
+
+.card{
+    background-color: #1f2125;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #26272B;
+width: 23vw;
+height: 20vh;
+gap: 10px;
+padding: 2vh;
+
+
+
+}
+
+.card img {
+    width: 12vw;
+    height: 20vh;
+    border-radius:20px;
+}
+
+.card p {
+    font-size: 1.3rem;
+}
+
+.card h2 {
+    font-size: 1.6rem;
 }

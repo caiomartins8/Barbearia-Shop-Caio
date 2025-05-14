@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="bt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>Reservas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
-
 </head>
 
-<body id="bodyreservas">
+<body id="reservacalendario">
 
     <header>
         <figure>
@@ -22,14 +21,10 @@
                 Logo FSW BARBER
             </figcaption>
         </figure>
-
-        <nav>
-
-            <button>Agendamento</button>
-            <button>Perfil</button>
-            <button><a href="reservas.html">Reserva </a></button>
-
-        </nav>
+        <div id="row">
+            <input type="text" placeholder="Buscar Barbearias">
+            <figure><img src="imagens/lupa.svg" alt="Ícone de busca" id="lupa"></figure>
+        </div>
 
         <div id="row">
 
@@ -56,311 +51,257 @@
 
 
 
-    <main id="mainreservas">
-        <div id="row">
+
+
+
+
+    <main>
+
+
+        <section>
             <article>
-                <div id="dpblock">
-                    <h1>Olá, Miguel!<br>
-                        <span id="subtitulo">Sexta, 2 de Fevereiro</span>
-                    </h1>
+                <figure>
+                    <img src="imagens/img1.jpg" alt="" id="imggrande">
+                    <figcaption>Foto Barbaria</figcaption>
+                </figure>
+            </article>
+
+
+            <div class="colunamontagem">
+
+
+
+                <h1>Vintage Barber</h1>
+
+
+
+                <div class="linha">
+                    <div class="linhamonatgem">
+                        <figure><img src="imagens/localizacao.svg" alt="" id="loc">
+                            <figcaption>Localizaçõa</figcaption>
+
+
+                        </figure>
+                        <p>Aveniada São Sebastião , 357 , São Paulo</p>
+                    </div>
+
+
+                    <div class="rowestrela">
+                        <figure>
+                            <img src="imagens/estrela.svg" alt="" class="estrela">
+                            <figcaption>Nota 5 Estrelas</figcaption>
+                        </figure>
+                        <p>5,0</p>
+                        <p>889 avaliação</p>
+                    </div>
+
                 </div>
 
-                <div id="row">
-                    <input type="text" placeholder="Buscar Barbearias">
-                    <figure><img src="imagens/lupa.svg" alt="Ícone de busca" id="lupa"></figure>
-                </div>
 
-                <p id="agendamentos">AGENDAMENTOS</p>
-
-                <div id="fundocinza">
+            </div>
 
 
-                    <div class="agendamento-conteudo">
+            <article class="colunamontagem">
 
+                <div class="linhamonatgem">
+                    <div class="card">
+                        <figure>
+                            <img src="imagens/corte.jpg" alt="">
+                            <figcaption>Vintage Barber</figcaption>
+                        </figure>
+                        <div class="colunasobrenos">
 
+                            <div>
+                                <h2>Corte de cabelo</h2>
+                                <p>Estilos personalizados com as
+                                    útimas tendências .</p>
+                            </div>
 
-                        <div class="agendamento-esquerda">
-                            <p id="roxo">Confirmado</p>
-                            <br>
-                            <h2>Corte de Cabelo</h2>
-                            <div id="corteagendadovintage">
-                                <figure>
-                                    <img src="imagens/img1.jpg" alt="Vintage Barber">
+                            <div class="linhasobrenos">
+                                <p class="ppreco">R$ 50,00</p>
+                                <button>Reservar</button>
 
-                                    <figcaption>Vintage Barber</figcaption>
-                                </figure>
-                                <p>Vintage Barber</p>
                             </div>
                         </div>
+                    </div>
 
+                    <div class="card">
+                        <figure>
+                            <img src="imagens/sobrancelha.jpg" alt="">
+                            <figcaption>Vintage Barber</figcaption>
+                        </figure>
+                        <div class="colunasobrenos">
 
-                        <div id="datahora">
-                            <p>Fevereiro<br>
-                            <div id="dia6">06</div>
-                            </p>
-                            <p>09:45</p>
+                            <div>
+                                <h2>Sobrancelha</h2>
+                                <p>Expressão acentuada com  modelagem precisa</p>
+                            </div>
+
+                            <div class="linhasobrenos">
+                                <p class="ppreco">R$ 50,00</p>
+                                <button>Reservar</button>
+
+                            </div>
                         </div>
-
                     </div>
                 </div>
+
+                <div class="linhamonatgem">
+                    <div class="card">
+                        <figure>
+                            <img src="imagens/barba.jpg" alt="">
+                            <figcaption>Vintage Barber</figcaption>
+                        </figure>
+                        <div class="colunasobrenos">
+
+                            <div>
+                                <h2>Barba</h2>
+                                <p>Modelagem completa para destacar sua masculinidade</p>
+                            </div>
+
+                            <div class="linhasobrenos">
+                                <p class="ppreco">R$ 50,00</p>
+                                <button>Reservar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="imagens/massagem.jpg" alt="">
+                            <figcaption>Vintage Barber</figcaption>
+                        </figure>
+                        <div class="colunasobrenos">
+
+                            <div>
+                                <h2>Massagem</h2>
+                                <p>Relaxe e renove com nossos  tartamentos revitalizantes</p>
+                            </div>
+
+                            <div class="linhasobrenos">
+                                <p class="ppreco">R$ 50,00</p>
+                                <button>Reservar</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </article>
+
+
+
+        </section>
+
+
+
+
+
+        <section id="sobrenos">
+
+            <div id="vintagebarbermapa">
+                <figure>
+
+                    <img src="imagens/img1.jpg" alt="">
+
+
+                    <figcaption>Vintage Barber</figcaption>
+                </figure>
+
+                <div id="coluna">
+                    <h2>Vintage Barber</h2>
+                    <p>Av. São Sebastião , 357 , São Paulo </p>
+                </div>
+
+
+            </div>
 
 
 
 
             <div>
-                <p>Recomendados</p>
-                <section>
-
-                    <article class="atcsec" id="atcsecimg1">
-                        <div class="rowestrela">
-                            <figure>
-                                <img src="imagens/estrela.svg" alt="" class="estrela">
-                                <figcaption>Nota 5 Estrelas</figcaption>
-                            </figure>
-                            <p>5,0</p>
-                        </div>
-
-                        <div class="h1ep">
-                            <h2>Vintage Barber</h2>
-                            <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="reservacalendario.html">Reservar</a></button>
-                        </div>
-                    </article>
-                    <article class="atcsec" id="atcsecimg2">
-                        <div class="rowestrela">
-                            <figure>
-                                <img src="imagens/estrela.svg" alt="" class="estrela">
-                                <figcaption>Nota 5 Estrelas</figcaption>
-                            </figure>
-                            <p>5,0</p>
-                        </div>
-
-                        <div>
-                            <h2>Vintage Barber</h2>
-                            <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="reservacalendario.html">Reservar</a></button>
-                        </div>
-                    </article>
-                    <article class="atcsec" id="atcsecimg3">
-                        <div class="rowestrela">
-                            <figure>
-                                <img src="imagens/estrela.svg" alt="" class="estrela">
-                                <figcaption>Nota 5 Estrelas</figcaption>
-                            </figure>
-                            <p>5,0</p>
-                        </div>
-
-                        <div>
-                            <h2>Vintage Barber</h2>
-                            <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="reservacalendario.html">Reservar</a></button>
-                        </div>
-                    </article>
-
-
-                </section>
+                <h2>SOBRE NÓS</h2>
+                <p>SOBRE NÓS
+                    Bem-vindo à Vintage Barber, onde tradição encontra estilo.
+                    Nossa equipe de mestres barbeiros transforma cortes de cabelo
+                    e barbas em obras de arte. Em um ambiente acolhedor,
+                    promovemos confiança, estilo e uma comunidade unida.
+                </p>
             </div>
 
-        </div>
+            <div class="coluna">
+
+                <div class="linha">
+                    <figure class="linha">
+                        <img src="imagens/celular.svg" alt="" class="iconcelular">
+                        <p>(11) 98204-5108</p>
+
+                        <figcaption>Número de telefone com botão de copiar</figcaption>
+                    </figure>
+                    <button>Copiar</button>
+                </div>
 
 
+                <div class="linha">
+                    <figure class="linha">
+                        <img src="imagens/celular.svg" alt="" class="iconcelular">
+                        <p>(11) 98204-5108</p>
+
+                        <figcaption>Número de telefone com botão de copiar</figcaption>
+                    </figure>
+                    <button>Copiar</button>
+                </div>
+
+            </div>
 
 
+            <p id="roxo">Confirmados</p>
+            <div class="colunabordacinza">
 
-        <div id="backcinza">
+                <div class="linhasobrenos">
+                    <h2>Corte de Cabelo</h2>
+                    <h2>R$50,00</h2>
 
+                </div>
 
+                <div class="linhasobrenos">
+                    <p>Data </p>
+                    <p>22 de julho</p>
+                </div>
 
-            <p>Mais Visitados </p>
-            <section>
+                <div class="linhasobrenos">
+                    <p>Horário</p>
+                    <p>09:45</p>
+                </div>
 
-                <article class="atcsec" id="atcsecimg4">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
+                <div class="linhasobrenos">
+                    <p>Barbearia</p>
+                    <p>Vintage Barber</p>
+                </div>
+            </div>
 
-                    <div class="h1ep">
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-                <article class="atcsec" id="atcsecimg5">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-                <article class="atcsec" id="atcsecimg6">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-
-                <article class="atcsec" id="atcsecimg7">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-
-                <article class="atcsec" id="atcsecimg8">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
+            <button id="btncancelar">Cancelar Reserva</button>
 
 
-            </section>
-        </div>
-
-        <div id="backcinza">
-
-
-
-            <p>Populares</p>
-            <section>
-
-                <article class="atcsec" id="atcsecimg9">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div class="h1ep">
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-                <article class="atcsec" id="atcsecimg10">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-                <article class="atcsec" id="atcsecimg11">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-
-                <article class="atcsec" id="atcsecimg12">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-
-                <article class="atcsec" id="atcsecimg13">
-                    <div class="rowestrela">
-                        <figure>
-                            <img src="imagens/estrela.svg" alt="" class="estrela">
-                            <figcaption>Nota 5 Estrelas</figcaption>
-                        </figure>
-                        <p>5,0</p>
-                    </div>
-
-                    <div>
-                        <h2>Vintage Barber</h2>
-                        <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="reservacalendario.html">Reservar</a></button>
-                    </div>
-                </article>
-
-
-            </section>
-        </div>
-
-
-
-
-
-
-
+        </section>
 
     </main>
+
+
+
+
+
+
+
+
+
+
+
 
     <footer>
         <p>&copy; Copyrigth FSW Barber</p>
 
     </footer>
-
-
 
 </body>
 
