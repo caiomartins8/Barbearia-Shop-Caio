@@ -13,31 +13,40 @@
 
 <body id="bodylogin">
 
-    <header id="loginheadertransp">
+<input type="checkbox" id="mensagem-toggle" hidden>
+
+<header >
+    <label for="mensagem-toggle">
         <figure>
             <img src="imagens/Logo.png" alt="" class="objectfit">
-            <figcaption>
-                Logo FSW BARBER
-            </figcaption>
+            <figcaption>Logo FSW BARBER</figcaption>
         </figure>
+    </label>
 
-       
+    <div id="row">
+        <button class="row">
+            <figure> 
+                <img src="imagens/calendario.svg" alt="" id="calender"> 
+                <figcaption>SVG calendario</figcaption>
+            </figure>
+            Horários
+        </button>
 
-        <div id="row">
-            
-            <button class="row">
-                <figure> 
-                    <img src="imagens/calendario.svg" alt="" id="calender"> 
-                    <figcaption>SVG calendario</figcaption>
-                </figure>
-                Horários
-            </button>
+        <button id="btnroxo">Suporte</button>
+    </div>
+</header>
 
-
-            <button id="btnroxo">Suporte</button>
+<div class="mensagem">
+    <div class="caixamensagem">
+        <h1>Sair</h1>
+        <p>Deseja sair da plataforma?</p>
+        <div class="modal-buttons">
+            <a href="index.html" class="btnsair">Sair</a>
+            <label for="mensagem-toggle" class="btncancelar">Cancelar</label>
         </div>
-        
-    </header>
+    </div>
+</div>
+
 
 
     <main id="mainindex">
@@ -49,7 +58,7 @@
 
             <button class="btnsection">SEJA BEM VINDO</button>
 
-            <button  class="btnsection"><a href="paginadeinicio.html">ENTRAR</a></button>
+            <a href="paginadeinicio.html"><button  class="btnsection">ENTRAR</button></a>
         </section>
           
         

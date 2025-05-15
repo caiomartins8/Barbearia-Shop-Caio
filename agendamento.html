@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Início</title>
+    <title>Página de Horários Marcados</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,14 +13,15 @@
 </head>
 
 <body id="reservacalendario">
+    <input type="checkbox" id="mensagem-toggle" hidden>
 
     <header>
+        <label for="mensagem-toggle">
         <figure>
             <img src="imagens/Logo.png" alt="" class="objectfit">
-            <figcaption>
-                Logo FSW BARBER
-            </figcaption>
+            <figcaption>Logo FSW BARBER</figcaption>
         </figure>
+    </label>
         <div id="row">
             <input type="text" placeholder="Buscar Barbearias">
             <figure><img src="imagens/lupa.svg" alt="Ícone de busca" id="lupa"></figure>
@@ -47,7 +48,16 @@
 
     </header>
 
-
+<div class="mensagem">
+    <div class="caixamensagem">
+        <h1>Sair</h1>
+        <p>Deseja sair da plataforma?</p>
+        <div class="modal-buttons">
+            <a href="index.html" class="btnsair">Sair</a>
+            <label for="mensagem-toggle" class="btncancelar">Cancelar</label>
+        </div>
+    </div>
+</div>
 
 
 

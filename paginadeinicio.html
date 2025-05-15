@@ -15,25 +15,22 @@
 
 <body id="bodyreservas">
 
+    <input type="checkbox" id="mensagem-toggle" hidden>
+
     <header>
+        <label for="mensagem-toggle">
         <figure>
             <img src="imagens/Logo.png" alt="" class="objectfit">
-            <figcaption>
-                Logo FSW BARBER
-            </figcaption>
+            <figcaption>Logo FSW BARBER</figcaption>
         </figure>
+    </label>
 
-        <nav>
-
-            <button><a href="agendamento.html">Agendamento</a>Agendamento</button>
-            <button>Perfil</button>
-            <button><a href="reservas.html">Reserva </a></button>
-
-        </nav>
+        
 
         <div id="row">
 
-            <button class="row">
+            <a href="agendamento.html">
+                 <button class="row">
                 <figure>
                     <img src="imagens/calendario.svg" alt="" id="calender">
                     <figcaption>SVG calendario</figcaption>
@@ -41,6 +38,8 @@
                 Horários
             </button>
 
+            </a>
+           
 
             <div class="row">
                 <figure><img src="imagens/miguel.jpg" alt="">
@@ -52,11 +51,93 @@
 
     </header>
 
+<div class="mensagem">
+    <div class="caixamensagem">
+        <h1>Sair</h1>
+        <p>Deseja sair da plataforma?</p>
+        <div class="modal-buttons">
+            <a href="index.html" class="btnsair">Sair</a>
+            <label for="mensagem-toggle" class="btncancelar">Cancelar</label>
+        </div>
+    </div>
+</div>
+
+    <input type="checkbox" id="toggle-menu" hidden>
+
+    <aside class="sidebar">
+        <label for="toggle-menu" class="closebtn">×</label>
+        <h2>Fazer Reserva </h2>
 
 
 
 
-    <main id="mainreservas">
+
+
+
+<div id="calendarios">
+<div class="linha">
+<h2>Fevereiro</h2>
+
+
+<figure><img src="" alt="">
+<figcaption>Seta Esquerda</figcaption></figure>
+
+
+<figure><img src="" alt="">
+<figcaption>Seta Direita</figcaption></figure>
+</div>
+
+
+<div id="diasdomes">
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+        <div id="horarios">
+            <p>09:00</p>
+            <p id="horarioroxo">09:45</p>
+            <p>10:30</p>
+            <p>11:15</p>
+        </div>
+<div id="borda">
+<div class="linhasobrenos">
+                    <h2>Corte de Cabelo</h2>
+                    <h2>R$50,00</h2>
+
+                </div>
+
+                <div class="linhasobrenos">
+                    <p>Data </p>
+                    <p>22 de julho</p>
+                </div>
+
+                <div class="linhasobrenos">
+                    <p>Horário</p>
+                    <p>09:45</p>
+                </div>
+
+                <div class="linhasobrenos">
+                    <p>Barbearia</p>
+                    <p>Vintage Barber</p>
+                </div>
+            </div>
+
+            <button id="btncancelarroxo">Confirmar</button>
+</div>
+                
+    </aside>
+    
+
+
+    <main id="mainpaginainicial ">
         <div id="row">
             <article>
                 <div id="dpblock">
@@ -108,9 +189,10 @@
 
 
 
-            <div>
-                <p>Recomendados</p>
-                <section>
+            <div class="colunasobrenos">
+                <h2>Recomendados</h2>
+
+                <section class="spacearound">
 
                     <article class="atcsec" id="atcsecimg1">
                         <div class="rowestrela">
@@ -122,9 +204,9 @@
                         </div>
 
                         <div class="h1ep">
-                            <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                             <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="agendamento.html">Reserva </a></button>
+                            <label for="toggle-menu" class="reservarbtn">Reservar</label>
                         </div>
                     </article>
                     <article class="atcsec" id="atcsecimg2">
@@ -137,9 +219,9 @@
                         </div>
 
                         <div>
-                            <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                             <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="agendamento.html">Reserva </a></button>
+                            <label for="toggle-menu" class="reservarbtn">Reservar</label>
                         </div>
                     </article>
                     <article class="atcsec" id="atcsecimg3">
@@ -154,7 +236,7 @@
                         <div>
                             <h2>Vintage Barber</h2>
                             <p>Avenida São Sebastião , 357 , São Paulo</p>
-                            <button><a href="agendamento.html">Reserva </a></button>
+                            <label for="toggle-menu" class="reservarbtn">Reservar</label>
                         </div>
                     </article>
 
@@ -168,12 +250,9 @@
 
 
 
-        <div id="backcinza">
-
-
-
-            <p>Mais Visitados </p>
-            <section>
+        <div class="colunasobrenos" id="margintop">
+<h2>Mais Visitados</h2>
+            <section class="spacearound">
 
                 <article class="atcsec" id="atcsecimg4">
                     <div class="rowestrela">
@@ -185,9 +264,9 @@
                     </div>
 
                     <div class="h1ep">
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
                 <article class="atcsec" id="atcsecimg5">
@@ -200,9 +279,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
                 <article class="atcsec" id="atcsecimg6">
@@ -215,9 +294,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
 
@@ -231,9 +310,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
 
@@ -247,22 +326,26 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
+
 
 
             </section>
         </div>
 
-        <div id="backcinza">
+
+
+        </div >
 
 
 
-            <p>Populares</p>
-            <section>
+        <div class="colunasobrenos" >
+<h2>Populares</h2>
+            <section class="spacearound">
 
                 <article class="atcsec" id="atcsecimg9">
                     <div class="rowestrela">
@@ -274,9 +357,9 @@
                     </div>
 
                     <div class="h1ep">
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
                 <article class="atcsec" id="atcsecimg10">
@@ -289,9 +372,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
                 <article class="atcsec" id="atcsecimg11">
@@ -304,9 +387,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
 
@@ -320,9 +403,9 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
 
@@ -336,15 +419,18 @@
                     </div>
 
                     <div>
-                        <h2>Vintage Barber</h2>
+                        <h3>Vintage Barber</h3>
                         <p>Avenida São Sebastião , 357 , São Paulo</p>
-                        <button><a href="agendamento.html">Reserva </a></button>
+                        <label for="toggle-menu" class="reservarbtn">Reservar</label>
                     </div>
                 </article>
 
 
             </section>
         </div>
+
+        </div>
+
 
 
 
