@@ -663,15 +663,15 @@ color: white;
     font-size: 2rem;
     color: white;
 background-color: #8162ff;    width: 100%;
-    height: 10vh;
-    border-radius: 25px;
+    height: 5vh;
+    border-radius: 15px;
 }
 
 .sidebar {
     position: fixed;
     top: 0;
     right: -100%;
-    width:25;
+    width:20%;
     height: 100%;
     background-color:  #1f2125;;
     color: white;
@@ -691,6 +691,9 @@ background-color: #8162ff;    width: 100%;
     cursor: pointer;
     display: block;
     text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .reservarbtn {
@@ -812,11 +815,13 @@ background-color: #1b1d21;
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
     justify-content: space-around;
 }
 
 #horarios p {
-    width: 4vw;
+    font-size: 1.2rem;
+    width: 3vw;
     text-align: center;
     border-radius: 20px;
     border: solid 1px #5c5c5f;
@@ -827,4 +832,131 @@ background-color: #1b1d21;
     background-color: #8162ff;
     border: none;
     color: white;
+}
+
+#diasdasemana{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.linhacalendario{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#diasdasemana p {
+    font-size: 1.3rem;
+}
+
+#calendarios{
+    border-top: solid #5c5c5f 1px ;
+
+}
+
+#calendarios img {
+    width: 1vw;
+    height: 2vh;
+        border: solid #5c5c5f 1px ;
+        border-radius: 8px;
+        
+        padding: 0.4vw;
+
+}
+
+#setaesquerda{
+    background-color: #5c5c5f;
+}
+
+#bordamenu {
+    height: 27vh;
+background-color: #1b1d21;  
+  border:solid 1px #5c5c5f;
+    border-radius: 10px;
+}
+
+.linhamenu{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cinza{
+color: #5c5c5f ;
+}
+
+
+#seisroxo{
+    background-color: #8162ff;
+    border-radius:100% ;
+    width: 1.2vw;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.secao {
+  display: none;
+  animation: fadein 0.5s ease;
+}
+
+.carrossel-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.botoes-controle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.botoes-controle label {
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px 0;
+}
+
+.botoes-controle label:hover {
+  background-color: #666;
+}
+
+.botoes-controle label figure img {
+  width: 20px;
+  height: 20px;
+}
+
+.conteudo-carrossel {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+
+
+
+
+#btn1-mais:checked ~ .carrossel-container .secao-mais1,
+#btn1-populares:checked ~ .carrossel-container .secao-populares1 {
+  display: block;
+}
+
+#btn2-mais:checked ~ .carrossel-container2 .secao-mais2,
+#btn2-populares:checked ~ .carrossel-container2 .secao-populares2 {
+  display: block;
 }
