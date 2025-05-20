@@ -2,16 +2,17 @@ html {
     font-size: 62.5%;
 }
 
-
-
 #bodylogin {
     background-image: url(imagens/fundo_login.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0;
     font-family: 'Nunito';
+    height: 100vh;
 }
+
 
 figcaption {
     display: none;
@@ -26,13 +27,17 @@ figcaption {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#headertransp {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 2rem;
     background-color: #1A1B1F;
     border: 1px solid #26272B;
 }
@@ -81,7 +86,6 @@ header button {
 
 #btnroxo {
     background: #8162ff;
-    width: 6vw;
     height: 4vh;
     border-radius: 10px;
 }
@@ -118,7 +122,6 @@ header button {
 }
 
 #reservacalendario main {
-    gap: 40px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -145,7 +148,7 @@ a {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -185,8 +188,6 @@ input {
 
 }
 
-
-
 header div figure img {
     border-radius: 100%;
     width: 3.5vw;
@@ -221,21 +222,17 @@ header div figure img {
     background-color: #141518;
 }
 
-
-
-
 #roxo {
     color: #8162ff;
-    background-color: #7958fd80;
-    width: 7vw;
-    text-align: center;
+    background-color: #221C3D;
+padding: 0.4vh;
+  text-align: center;
     border-radius: 10px;
 }
 
 #preto {
     color: #5c5c5f;
     background-color: #26272B;
-    width: 7vw;
     text-align: center;
     border-radius: 10px;
 }
@@ -276,14 +273,11 @@ article img {
 
 }
 
-
 .agendamento-conteudo {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-
-
 }
 
 .agendamento-esquerda {
@@ -312,11 +306,11 @@ article img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-        border: 10px solid #1a1b1f;
+    border: 10px solid #1a1b1f;
 
 }
 
-.spacearound{
+.spacearound {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -351,7 +345,6 @@ article img {
     background-color: #1A1B1F;
 
 }
-
 
 #atcsecimg4 {
     background: url(imagens/img4.jpg);
@@ -453,16 +446,9 @@ article img {
 
 }
 
-
-
-
 .atcsec p {
     font-size: 1rem;
 }
-
-
-
-
 
 #bodyreservas section {
     height: 100%;
@@ -491,26 +477,19 @@ article img {
 
 }
 
-
-
-
-
 .h1ep {
     margin-top: 20vh;
 }
-
 
 #backcinza {
     height: 100%;
     width: 100%;
     background-color: #141518;
-display: flex;
-justify-content:center
- ;
- align-items:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
 
 footer {
     background-color: #1f2125;
@@ -519,9 +498,9 @@ footer {
 }
 
 #sobrenos {
-    margin: 10vh;
+    margin: 1vh;
     width: 40vw;
-    height: 128vh;
+    height: 100%;
     border-radius: 10px;
     background: url(imagens/mapa.png);
     border: 10px solid #1f2125;
@@ -584,9 +563,6 @@ footer {
 
 }
 
-
-
-
 .colunabordacinza {
     display: flex;
     flex-direction: column;
@@ -617,8 +593,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1vw;
-    padding: 1vh;
     border-radius: 10px;
 }
 
@@ -626,13 +600,12 @@ footer {
     color: white;
     background-color: #5c5c5f;
     border: none;
-    width: 7vw;
     height: 5vh;
     border-radius: 10px;
 }
 
-.linhasobrenos button{
-color: white;
+.linhasobrenos button {
+    color: white;
     background-color: #5c5c5f;
     border: none;
     width: 6vw;
@@ -662,7 +635,8 @@ color: white;
     border: none;
     font-size: 2rem;
     color: white;
-background-color: #8162ff;    width: 100%;
+    background-color: #8162ff;
+    width: 100%;
     height: 5vh;
     border-radius: 15px;
 }
@@ -671,17 +645,18 @@ background-color: #8162ff;    width: 100%;
     position: fixed;
     top: 0;
     right: -100%;
-    width:20%;
+    width: 20%;
     height: 100%;
-    background-color:  #1f2125;;
+    background-color: #1f2125;
+    ;
     color: white;
     padding: 20px;
-    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
     transition: right 0.3s ease;
     z-index: 1;
 }
 
-#toggle-menu:checked + .sidebar {
+#toggle-menu:checked+.sidebar {
     right: 0;
 }
 
@@ -697,36 +672,38 @@ background-color: #8162ff;    width: 100%;
 }
 
 .reservarbtn {
-   
-    background-color: #3b3b3b;           
-    color: white;                    
-    padding: 12px 16px;
+
+    background-color: #3b3b3b;
+    color: white;
     border-radius: 12px;
     cursor: pointer;
     text-align: center;
-    display: block;                  
+    display: block;
     font-weight: 600;
     text-decoration: none;
-    width: 13vw;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     margin-top: 10px;
     font-size: 1.4rem;
 
 }
 
-header label{
+header label {
     color: white;
     font-size: 1.4rem;
 }
 
-
-#margintop{
+#margintop {
     margin-top: 10vw;
 }
 
 .colunasobrenos h2 {
     color: #5c5c5f;
-    margin-left:2vw;
+    margin-left: 2vw;
 }
 
 h3 {
@@ -748,17 +725,17 @@ h3 {
     z-index: 1;
 }
 
-#mensagem-toggle:checked ~ .mensagem{
+#mensagem-toggle:checked~.mensagem {
     display: flex;
 }
 
-.caixamensagem{
-   background: #1f2125;
+.caixamensagem {
+    background: #1f2125;
     padding: 2rem;
     border-radius: 10px;
     text-align: center;
     max-width: 90%;
-    width: 300px;
+    width: 30%;
 }
 
 .modal-buttons {
@@ -769,34 +746,35 @@ h3 {
 }
 
 .btnsair {
-    background-color:  rgb(255, 64, 64);
+    background-color: rgb(255, 64, 64);
     color: white;
     text-decoration: none;
     border-radius: 5px;
     width: 50%;
     height: 5vh;
-        font-size: 2rem;
-        display: flex;
+    font-size: 1.3rem;
+    display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
 .btncancelar {
-background-color: #3b3b3b;    color: white;
+    background-color: #3b3b3b;
+    color: white;
     border-radius: 5px;
     cursor: pointer;
     width: 50%;
     height: 5vh;
-    font-size: 2rem;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 .mensagem .caixamensagem p {
-color: #5c5c5f;}
+    color: #5c5c5f;
+}
 
 .mensagem .caixamensagem h1 {
     color: rgb(255, 255, 255);
@@ -804,12 +782,12 @@ color: #5c5c5f;}
 
 #borda {
     height: 35vh;
-background-color: #1b1d21;  
-  border:solid 1px #5c5c5f;
+    background-color: #1b1d21;
+    border: solid 1px #5c5c5f;
     border-radius: 20px;
 }
 
-#horarios{
+#horarios {
     border-top: solid 1px #5c5c5f;
     border-bottom: solid 1px #5c5c5f;
     display: flex;
@@ -821,30 +799,28 @@ background-color: #1b1d21;
 
 #horarios p {
     font-size: 1.2rem;
-    width: 3vw;
     text-align: center;
     border-radius: 20px;
     border: solid 1px #5c5c5f;
     padding: 1vh;
 }
 
-#horarioroxo{
+#horarioroxo {
     background-color: #8162ff;
     border: none;
     color: white;
 }
 
-#diasdasemana{
+#diasdasemana {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
 
-
-.linhacalendario{
+.linhacalendario {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
@@ -853,110 +829,126 @@ background-color: #1b1d21;
     font-size: 1.3rem;
 }
 
-#calendarios{
-    border-top: solid #5c5c5f 1px ;
+#calendarios {
+    border-top: solid #5c5c5f 1px;
 
 }
 
 #calendarios img {
     width: 1vw;
     height: 2vh;
-        border: solid #5c5c5f 1px ;
-        border-radius: 8px;
-        
-        padding: 0.4vw;
+    border: solid #5c5c5f 1px;
+    border-radius: 8px;
+
+    padding: 0.4vw;
 
 }
 
-#setaesquerda{
+#setaesquerda {
     background-color: #5c5c5f;
 }
 
 #bordamenu {
     height: 27vh;
-background-color: #1b1d21;  
-  border:solid 1px #5c5c5f;
+    background-color: #1b1d21;
+    border: solid 1px #5c5c5f;
     border-radius: 10px;
 }
 
-.linhamenu{
-     display: flex;
+.linhamenu {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.cinza{
-color: #5c5c5f ;
+.cinza {
+    color: #5c5c5f;
 }
 
-
-#seisroxo{
+#seisroxo {
     background-color: #8162ff;
-    border-radius:100% ;
-    width: 1.2vw;
+    border-radius: 100%;
+    width: 2vw;
     text-align: center;
 
 }
 
-
-
-
-
+#margintop {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 .secao {
-  display: none;
-  animation: fadein 0.5s ease;
+    display: none;
+    animation: fadein 0.5s ease;
 }
 
 .carrossel-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
 }
 
 .botoes-controle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .botoes-controle label {
-  padding: 10px;
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 5px 0;
+    padding: 10px;
+    background-color:#1a1b1f;
+    border: solid 1px #5c5c5f;
+    color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+    width: 1.5vw;
+    transition: background-color 0.3s ease;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .botoes-controle label:hover {
-  background-color: #666;
+    background-color: #666;
 }
 
 .botoes-controle label figure img {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .conteudo-carrossel {
-  flex-grow: 1;
-  padding: 0 20px;
+    flex-grow: 1;
+    padding: 0 20px;
 }
 
-
-
-
-
-#btn1-mais:checked ~ .carrossel-container .secao-mais1,
-#btn1-populares:checked ~ .carrossel-container .secao-populares1 {
-  display: block;
+.conteudo-carrossel .secao h2 {
+    color: #5c5c5f;
 }
 
-#btn2-mais:checked ~ .carrossel-container2 .secao-mais2,
-#btn2-populares:checked ~ .carrossel-container2 .secao-populares2 {
-  display: block;
+#btn1-mais:checked~.carrossel-container .secao-mais1,
+#btn1-populares:checked~.carrossel-container .secao-populares1 {
+    display: block;
+}
+
+#btn2-mais:checked~.carrossel-container2 .secao-mais2,
+#btn2-populares:checked~.carrossel-container2 .secao-populares2 {
+    display: block;
+}
+
+#btn3-mais:checked~.carrossel-container3 .secao-mais3,
+#btn3-populares:checked~.carrossel-container3 .secao-populares3 {
+    display: block;
+}
+
+img {
+    object-fit: contain;
 }
