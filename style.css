@@ -28,7 +28,8 @@ figcaption {
 }
 
 #headertransp {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
 
 }
 
@@ -63,6 +64,9 @@ figure {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+        margin: 0;
+
 }
 
 #row {
@@ -758,6 +762,9 @@ h3 {
     width: 30%;
 }
 
+.caixamensagem h1{
+    text-align: center;
+}
 .modal-buttons {
     margin-top: 1.5rem;
     display: flex;
@@ -1031,8 +1038,6 @@ flex-direction: row;}
 }
 #lupa {
     width:1vw;}
-  
-
 
 }
 
