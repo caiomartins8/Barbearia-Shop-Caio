@@ -64,7 +64,7 @@ figure {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+   
         margin: 0;
 
 }
@@ -484,7 +484,7 @@ article img {
 }
 
 .estrela {
-    width: 1vw;
+    width: 0.8vw;
     height: auto;
 }
 
@@ -670,7 +670,7 @@ footer {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 30%;
+    width: 25%;
     height: 100%;
     background-color: #1f2125;;
     color: white;
@@ -1049,6 +1049,11 @@ flex-direction: row;}
 
   .atcsec:first-child {
     display: block;
+  }
+  
+  .sidebar{
+     width: 40%;
+    height: 221%;
   }
 }
   
